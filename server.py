@@ -7,14 +7,17 @@ class PrinterI(Demo.Printer):
     # Função original
     def printString(self, s, current=None):
         print(s)
+        return s
     
     # NOVO: converte para maiúscula e imprime
     def printUpperCase(self, s, current=None):
         print(s.upper())
+        return s.upper()
     
     # NOVO: conta e retorna o número de caracteres
     def countChars(self, s, current=None):
         return len(s)
+    
 
 # --- NOVO objeto Calculator ---
 class CalculatorI(Demo.Calculator):

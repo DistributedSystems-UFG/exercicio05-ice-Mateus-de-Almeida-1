@@ -1,14 +1,14 @@
 module Demo
 {
     interface Printer
-    {   // Função original
-        void printString(string s);
+    {   // Função original (tive que mudar de void para string para se adequar ao que o ex.6 pede)
+        string printString(string s);
 
-        // NOVO: imprime a string em maiúsculo
-        void printUpperCase(string s);
+        // NOVO: imprime a string em maiúsculo (tive que mudar de void para string para se adequar ao que o ex.6 pede)
+        string printUpperCase(string s);
 
-        // NOVO: retorna a quantidade de caracteres
-        void countChars(string s);
+        // NOVO: retorna a quantidade de caracteres (tive que mudar de void para string para se adequar ao que o ex.6 pede)
+        string countChars(string s);
     }
     
     // NOVO: objeto servidor
