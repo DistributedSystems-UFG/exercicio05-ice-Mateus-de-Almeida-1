@@ -16,6 +16,7 @@ class PrinterI(Demo.Printer):
     
     # NOVO: conta e retorna o número de caracteres
     def countChars(self, s, current=None):
+        print(len(s))
         return len(s)
     
 

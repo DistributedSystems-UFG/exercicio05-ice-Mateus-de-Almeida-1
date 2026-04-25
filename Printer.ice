@@ -8,7 +8,7 @@ module Demo
         string printUpperCase(string s);
 
         // NOVO: retorna a quantidade de caracteres (tive que mudar de void para string para se adequar ao que o ex.6 pede)
-        string countChars(string s);
+        int countChars(string s);
     }
     
     // NOVO: objeto servidor

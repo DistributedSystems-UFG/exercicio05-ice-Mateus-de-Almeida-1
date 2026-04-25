@@ -111,7 +111,7 @@ if 'PrinterPrx' not in _M_Demo.__dict__:
 
     Printer._op_printString = IcePy.Operation('printString', Ice.OperationMode.Normal, Ice.OperationMode.Normal, False, None, (), (((), IcePy._t_string, False, 0),), (), ((), IcePy._t_string, False, 0), ())
     Printer._op_printUpperCase = IcePy.Operation('printUpperCase', Ice.OperationMode.Normal, Ice.OperationMode.Normal, False, None, (), (((), IcePy._t_string, False, 0),), (), ((), IcePy._t_string, False, 0), ())
-    Printer._op_countChars = IcePy.Operation('countChars', Ice.OperationMode.Normal, Ice.OperationMode.Normal, False, None, (), (((), IcePy._t_string, False, 0),), (), ((), IcePy._t_string, False, 0), ())
+    Printer._op_countChars = IcePy.Operation('countChars', Ice.OperationMode.Normal, Ice.OperationMode.Normal, False, None, (), (((), IcePy._t_string, False, 0),), (), ((), IcePy._t_int, False, 0), ())
 
     _M_Demo.Printer = Printer
     del Printer
